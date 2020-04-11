@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+  Menu
+</title>
+<style>
+@media screen and (max-width:600px) {
+  div.btm{
+    display: none;
+  }
+}
+  body{
+    background-color: black;
+  }
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: lightgrey;
+}
+h1{
+  text-align: center;
+}
+.menu{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav{
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.btm{
+  position: absolute;
+  height: 100px;
+  left: 5%;
+  top:28%;
+}
+</style>
+</head>
+
+<body>
+  <div class="nav">
+    <a href="index.html">
+    <svg class="bi bi-x" width="2em" height="2em" viewBox="0 0 16 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+</svg></a>
+</div>
+<div class="menu">
+<h1>
+    <a href="#"> About Me </a><br><br>
+    <a href="#"> Portfolio </a><br><br>
+    <a href="#"> Store </a><br><br>
+    <a href="#"> Contact </a><br><br>
+  </h1>
+</div>
+<div class="btm">
+  <p style="color:white;opacity:10%;font-size:280px;">Menu</p>
+</div>
+</body>
+</html>
