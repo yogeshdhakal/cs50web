@@ -6,11 +6,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta name="viewport" content="width="device-width, initial-scale="1.0">
 <style>
-  .menu{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+@media screen and (max-width:540px;) {
+  .mobo{
+    display: none;
+  }
   }
 </style>
   </head>
@@ -35,7 +34,7 @@
         <a class="nav-link" href="#">Portfolio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Store</a>
+        <a class="nav-link" href="#">Stocks</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Contact</a>
@@ -44,23 +43,78 @@
   </div>
 </nav>
 
-
-  <h1 class="menu" style="color:white;">Hi! I'm Sera, a Indie Filmmaker</h1>
+<div class="contain">
+  <h1 class="centered">Hi! I'm Sera, a Indie Filmmaker</h1>
 <div class="bgimg">
   <div class="overlay">
     </div>
 </div>
-
-  <div class="conatiner">
+</div>
+<!-- grid -->
+  <div class="conatiner" style="background-color: #fafafa;">
     <div class="row align-items-center">
-  <div class="col-12 col-lg-6 col-sm-12">
+  <div class="col-lg-6 d-none d-lg-block">
   <img src="img/seraprofile.jpg" alt="" width="100%"></div>
   <div class="col-12 col-lg-6 col-sm-12" style="padding:50px;">
         <h1>About Me</h1>
         <p>Sera is an American film and television director and screenwriter. She directed the films Monster (2003), Wonder Woman (2017), and the upcoming Wonder Woman 1984 (2020). For her work on the pilot episode of The Killing, she received a Primetime Emmy Award nomination for Outstanding Directing for a Drama Series and won the Directors Guild of America award for Outstanding Directing in Dramatic Series.</p>
-<br><button type="button" name="button" class="CTA">Contact Me</button>
+<br><div class="row">
+  <div class="col-3">
+    <img src="img/sony.png" alt="logo" width="100px">
+  </div>
+  <div class="col-3">
+    <img src="img/discovery.png" alt="logo" width="100px">
+  </div>
+  <div class="col-3">
+    <img src="img/canon.png" alt="logo" width="100px">
+  </div>
+  <div class="col-3">
+    <img src="img/face.png" alt="logo" width="100px">
+  </div>
+</div>
+<br><button type="button" name="button" class="CTA">Get In Touch</button>
     </div>
     </div>
+  </div> <br>
+  <!-- awards table -->
+  <div>
+    <h1 style="text-align:center;"> Awards </h1>
+    <img src="img/awards.png" alt="awards" class="center"><br>
+    <table class="table">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Award</th>
+          <th scope="col">Film</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Official Selection hotDOCS 2017</td>
+          <td>Monster</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>BFI Film Festival 2017</td>
+          <td>Wonder Woman</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Best Feature Film Generation 2018</td>
+          <td>Jersey Girl</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Best of Fest 2019</td>
+          <td>Mad Hunter</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>VIFF Film Festival Official Selection 2017</td>
+          <td>Red City</td>
+        </tr>
+      </tbody>
   </div>
 
 </body>
