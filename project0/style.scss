@@ -1,0 +1,58 @@
+// Variable
+
+$primary-color: #111111;
+
+.CTA{
+  background-color: $primary-color;
+}
+
+.p {
+  color: $primary-color;
+}
+
+.bg-img{
+  background-color: $primary-color;
+}
+
+//Nesting
+.content-details {
+  h3{
+color: #fff;
+font-weight: 500;
+letter-spacing: 0.15em;
+margin-bottom: 0.5em;
+text-transform: uppercase;
+}
+
+ p{
+color: #fff;
+font-size: 0.8em;
+}
+}
+
+//Inheritance
+%tl50 {
+  top: 50%;
+  left: 50%;
+}
+.content-details {
+  @extend %tl50;
+position: absolute;
+text-align: center;
+padding-left: 1em;
+padding-right: 1em;
+width: 100%;
+opacity: 0;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+-webkit-transition: all 0.3s ease-in-out 0s;
+-moz-transition: all 0.3s ease-in-out 0s;
+transition: all 0.3s ease-in-out 0s;
+}
+
+#centered {
+  @extend %tl50;
+position: absolute;
+transform: translate(-50%, -50%);
+}
