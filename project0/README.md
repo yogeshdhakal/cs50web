@@ -22,3 +22,6 @@ Below details I have created a table showing the awards.
 3. In portfolio page I have showed different works in grid that links to an external website.
 
 4. In contact I have used forms to send message to the filmmaker.
+
+--> Navgiation is not working in small screens.
+--> & website is not fully responsive.
